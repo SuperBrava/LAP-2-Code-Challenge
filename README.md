@@ -1,6 +1,6 @@
 # LAP-2-Code-Challenge - Build a Database
 
-# Requirements
+## Requirements
 
 [ ] Your app should have a browser client allowing users to write a post with a title, a pseudonym and a body
 
@@ -12,7 +12,7 @@
 
 [ ] Edit and delete functionality is not required
 
-##Getting started code
+## Getting started code
 ```
 
 ```
