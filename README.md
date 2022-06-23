@@ -39,6 +39,6 @@
 
 [  ] The user should be able to access their post using that show path even after a server restart
 
-[  ] Edit and delete functionality is not required
+[  ] Edit and delete functionality is not  required
 
 
