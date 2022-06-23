@@ -12,7 +12,7 @@
 * From “.\LAP-2-Code-Challenge\api” in the terminal: run “npm start” to initialise the server.
 * The server will start on “http://localhost:3000/”
 * Open a new terminal and cd into “.\LAP-2-Code-Challenge\client”.
-* To open the client run “open index.html”(Mac) / ”start index.html”(Windows) to open the client.
+* To open the client run “open index.html”(Mac) / ”start index.html”(Windows).
 
 ### Testing the server
 
