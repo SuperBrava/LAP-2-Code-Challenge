@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./static/css/style.css" rel="stylesheet"> 
+    <script defer href="./static/js/requests.js"> </script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,16 +28,23 @@
     
     <form id="form">
         <label for="title">Title: </label>
-        <input class="textbox" type="text" name="title" id="title" required> 
+        <input class="textbox" type="text" name="title" id="title" placeholder="There and Back Again" required> 
 
-        <label for="author">Name: </label>
-        <input class="textbox" type="text" name="author" id="author" required>
+        <label for="author">Author: </label>
+        <input class="textbox" type="text" name="author" id="author" placeholder="Bilbo Baggins" required>
 
         <label for="name">Story: </label>
-        <textarea class="textbox" type="text" name="story" id="story" required></textarea>
+        <textarea class="textbox" type="text" name="story" id="story" placeholder="In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort." required></textarea>
         <br/>
-        <button class="btn btn-dark">Publish</button>
+        <button class="btn btn-dark"  type="button" id="submitPost" ame="submit" value="Update my file" >Publish</button>
     </form>
-    <section id="postSection"></section>
+
+    <section id="postResults">
+        
+
+
+    </section>
+
+
 </body>
 </html>
