@@ -22,7 +22,7 @@
 
 * Navigating to http://localhost:3000/posts will show you all of the posts stored in the external database.
 
-* Using the Id number of an existing post you can navigate to “http://localhost:3000/posts/ + <id number>” to get the data only for that specific post.
+* Using the Id number of an existing post you can navigate to “http://localhost:3000/posts/ + (id number)” to get the data only for that specific post.
 
 * Testing the creation of a new post: using an API platform like Postman or the Thunder Client extension of vs code, send a POST request to “http://localhost:3000/posts/”. In the headers of the request include “Content-Type” as a new key and value “application/json” and the body should have the following structure:
 {"title":"Test title","author":"Test author","story":"Test story"}
