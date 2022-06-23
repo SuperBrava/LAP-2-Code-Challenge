@@ -39,16 +39,7 @@ async function postBook(e){
     }
 }
 
-// async function deleteBook(id){
-//     try {
-//         const options = { method: 'DELETE' }
-//         await fetch(`http://localhost:3000/books/${id}`, options);
-//         window.location.hash = `#books`
-//     } catch (err) {
-//         console.warn(err);
-//     }
-// }
-
+// In Progress
 // creates a html elements and populates innertext with post data
 function postInstance(post){
     const postContainer = document.createElement('div');
