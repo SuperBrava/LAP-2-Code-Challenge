@@ -51,24 +51,6 @@ class Post {
       }
     });
   }
-
-  // destroy() {
-  //   return new Promise(async (resolve, reject) => {
-  //     try {
-  //       const result = await db.query("DELETE FROM posts WHERE id = $1 RETURNING author_id", [
-  //         this.id,
-  //       ]);
-  //       const author = await Author.findById(result.rows[0].author_id);
-  //       const posts = await author.posts;
-  //       if (!posts.length) {
-  //         await author.destroy();
-  //       }
-  //       resolve("Post was deleted");
-  //     } catch (err) {
-  //       reject("Post could not be deleted");
-  //     }
-  //   });
-  // }
 }
 
 module.exports = Post;

@@ -33,16 +33,4 @@ async function create(req, res) {
   }
 }
 
-// async function destroy(req, res) {
-//   try {
-//     const post = await Post.findById(req.params.id);
-//     const resp = await post.destroy();
-//     res.status(204).end();
-//   } catch (err) {
-//     res.status(404).json({ err });
-//   }
-// }
-
 module.exports = { index, show, create };
-
-// , destroy
